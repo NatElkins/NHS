@@ -51,7 +51,7 @@ Target.create "Bundle" (fun _ ->
 
 Target.create "Azure" (fun _ ->
     let web = webApp {
-        name "NHS"
+        name "NhsOfQueens"
         zip_deploy "deploy"
     }
     let deployment = arm {
